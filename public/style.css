@@ -1,0 +1,36 @@
+.contenedor{
+    height: calc(60vh - 60px);
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta{
+    flex: 1;
+    border-radius: 10px;
+    margin: 10px;
+    background: rgb(233, 233, 233);
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dni{
+    background: white;
+    border-radius: 6px;
+}
+.ocultar{
+    display: none;
+}
+#errorDni{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+}
+.estado{
+    background: #210755;
+    color: white;
+}
+label{
+    font-size: 20px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="/images/clean-64.png" type="image/x-icon">
+
+  <title>CleanTime Panel</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./vendor/materialize/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div>
+    <nav class="deep-purple">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">CleanTime</a>
+        <ul class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <div class="contenedor">
+      <table>
+        <thead>
+          <tr>
+            <td>DNI</td>
+            <td>TIPO</td>
+            <td>LAT</td>
+            <td>LONG</td>
+            <td>RECIBIDO</td>
+            <td>ENVIADO</td>
+          </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="./vendor/materialize/materialize.min.js"></script>
+  <script src="./vendor/moment.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+  <script src="./config.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+</html>

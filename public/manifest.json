@@ -1,0 +1,36 @@
+{
+    "name": "CleanTimePanel",
+    "short_name": "CleanTimePanel",
+    "start_url": "/",
+    "display": "fullscreen",
+    "orientation": "portrait-primary",
+    "theme_color": "#673ab7",
+    "background_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "/images/clean-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/clean-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/clean-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/clean-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/clean-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+  }
